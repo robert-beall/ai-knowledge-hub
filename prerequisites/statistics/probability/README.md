@@ -3,6 +3,8 @@
     - [Random Variable](#random-variable)
   - [Expectation](#expectation)
     - [Expectation Formula](#expectation-formula)
+  - [Variance](#variance)
+    - [Variance Formula](#variance-formula)
   - [Sources](#sources)
 
 *Probability Theory* is a mathematical framework for analyzing chance events in a logically sound manner. The probability of an event is a number indicating how likely an event is to occur.<sup>[1](https://seeing-theory.brown.edu/basic-probability/index.html)</sup>.
@@ -34,6 +36,25 @@ Lowercase `x` represents all possible values within the random variable.
 
 `Σ` denotes a sum of all terms.
 
+## Variance
+Variance quantifies the spread of a random variable's distribution.
+
+Notes on variance<sup>[2](https://en.wikipedia.org/wiki/Variance)</sup>:
+* Always positive number
+* A higher variance indicates greater spread of values from the expectation.
+* A lower variance indicates a smaller spread with values hewing closer to expectation.
+
+### Variance Formula
+Variance is the average value of the squared difference between the random variable and its expectation: 
+
+>Var(X)=E[(X−E[X])<sup>2</sup>]
+
+`Var(X)` is the variance of the random variable `X`.
+
+`E[...]` denotes the expected value.
+
+`E(X)` is the expectation of the random variable.
 
 ## Sources
 1. [Seeing Theory - Probability Theory](https://seeing-theory.brown.edu/basic-probability/index.html)
+2. [Variance - Wikipedia](https://en.wikipedia.org/wiki/Variance)

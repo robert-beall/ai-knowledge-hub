@@ -1,6 +1,14 @@
 # Statistics
 In this section, I will be building out my knowledge of statistics. It's kind of odd that I took a decent amount of math in high school and plenty of compsci courses in college, but never managed to take a statistics course. As such, it's a bit of an undiscovered country for me.
 
+## Index
+- [probability](probability/README.md)
+  - [comound probability](probability/compound-probability/README.md)
+  - [probability distributions](probability/probability-distributions/README.md)
+- [r](r/README.md)
+
+## Sources
+
 I will be updating this README as I move along, but for now, I will list the following resources as a starting point:
 
 * [Seeing Theory](https://seeing-theory.brown.edu/index.html)
